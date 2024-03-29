@@ -19,15 +19,10 @@
   </head>
 
   <body>
-    <header>
-      <h1>Welcome to The Little Taco Shop</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about"
-              >About <abbr title="The Little Taco Shop">LTS</abbr></a
-            >
-          </li>
+    <header class="header">
+      <h1 class="header__h1">Welcome to The Little Taco Shop</h1>
+      <nav class="header__nav">
+        <ul class="header__ul">
           <li>
             <a href="#menu">Our Menu</a>
           </li>
@@ -37,9 +32,17 @@
           <li>
             <a href="contact.html">Contact Us</a>
           </li>
+          <li>
+            <a href="about.html"
+              >About <abbr title="The Little Taco Shop">LTS</abbr></a
+            >
+          </li>
         </ul>
       </nav>
+    </header>
 
+    <section class="hero">
+      <h2 class="hero__h2">Bienvenidos!</h2>
       <figure>
         <img
           src="img/tacos_and_drink_400x267.png"
@@ -49,8 +52,8 @@
           height="267" />
         <figcaption>Tacos and a Drink</figcaption>
       </figure>
-    </header>
-    <hr />
+    </section>
+
     <main>
       <article id="about">
         <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
@@ -80,7 +83,6 @@
           </details>
         </aside>
       </article>
-      <hr />
       <article id="menu">
         <h2>Our Menu</h2>
         <table>
@@ -142,7 +144,6 @@
         </p>
       </article>
     </main>
-    <hr />
     <footer>
       <p>Copyright &copy; The Little Taco Shop</p>
     </footer>
