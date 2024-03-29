@@ -36,6 +36,10 @@ textarea {
   --BGIMAGE: linear-gradient(to bottom, var(--BGCOLOR), var(--BGCOLOR-FADE));
   --BODY-BGCOLOR: #fff;
   --FONT-COLOR: #000;
+  --BORDER-COLOR: #333;
+
+  /* BORDERS */
+  --BORDERS: 1px solid var(--BORDER-COLOR);
 }
 
 /* || UTILITY CLASSES */
@@ -50,4 +54,24 @@ textarea {
 
 .center {
   text-align: center;
+}
+
+/* || GENERAL STYLES */
+html {
+  scroll-behavior: smooth;
+  font-size: var(--FS);
+  font-family: var(--FF);
+  background-color: var(--BGCOLOR);
+  background-image: var(--BGIMAGE);
+}
+
+body {
+  background-color: var(--BODY-BGCOLOR);
+  color: var(--FONT-COLOR);
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  border-left: var(--BORDERS);
+  border-right: var(--BORDERS);
+  box-shadow: 0 0 10px var(--BORDER-COLOR);
 }
