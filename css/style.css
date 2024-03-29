@@ -37,3 +37,17 @@ textarea {
   --BODY-BGCOLOR: #fff;
   --FONT-COLOR: #000;
 }
+
+/* || UTILITY CLASSES */
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.center {
+  text-align: center;
+}
